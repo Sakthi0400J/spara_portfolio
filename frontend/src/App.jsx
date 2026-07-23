@@ -21,7 +21,7 @@ import Footer from './components/footer'
 
 import AllProducts from './AllProducts'
 import Allblogs from './Allblogs'
-
+import { Helmet } from 'react-helmet-async'
 function MainWebsite() {
 
   const [menuOpen, setMenuOpen] = useState(false)
@@ -33,6 +33,23 @@ function MainWebsite() {
 
   return (
     <>
+      <Helmet>
+
+        <title>
+          Spara Technotex | Non-Woven Textile Manufacturer
+        </title>
+
+        <meta
+          name="description"
+          content="Sunraise Technotex manufactures eco-friendly non-woven fabrics, HEPA filters, comforters, quilts, industrial textile solutions, and sustainable products."
+        />
+
+        <meta
+          name="keywords"
+          content="Sunraise Technotex, non woven fabric, HEPA filter, textile manufacturer, industrial textile, eco friendly fabric"
+        />
+
+      </Helmet>
       <style>{`
 
         * {
@@ -67,7 +84,8 @@ function MainWebsite() {
         }
 
         .logo img {
-          height: 60px;
+          height: 45px;
+          margin-top: 12px;
         }
 
         .desktop-nav {
@@ -146,7 +164,7 @@ function MainWebsite() {
 
       .whatsapp-float {
         position: fixed;
-        bottom: 25px;
+        bottom: 70px;
         right: 25px;
         width: 60px;
         height: 60px;
@@ -231,7 +249,7 @@ function MainWebsite() {
 
         <div className="logo">
           <a href="#home" onClick={closeMenu}>
-            <img src="/Screenshot 2026-05-03 144338.png" />
+            <img src="/sparalogo276842.png" />
           </a>
         </div>
 

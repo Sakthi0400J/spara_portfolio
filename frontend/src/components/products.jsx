@@ -14,24 +14,36 @@ function Products() {
 
   const featuredProducts = [
     {
-      image: "/public/products/sunraise image/hepafilteronly.png",
+      image: "/public/products/sunraise image/Sunraise_HEPA fileter.png",
       name: "HEPA Air Filter",
       short:
-        "Medical-grade biodegradable HEPA filter with advanced air purification performance."
+        <>
+          Medical-grade biodegradable HEPA filter with
+          <br />
+          advanced air purification performance.
+        </>
     },
 
     {
-      image: "/products/sunraise image/Comforter.png",
+      image: "/products/sunraise image/Sunraise_Comforter.png",
       name: "Comforter",
       short:
-        "Luxuriously soft all-season comforter crafted with eco-friendly organic fibers."
+        <>
+          Luxuriously soft all-season comforter crafted with
+          <br />
+          eco-friendly organic fibers.
+        </>
     },
 
     {
       image: "/products/sunraise image/winter jacket (2).png",
-      name: "Winter Jacket",
+      name: "Winter Jacket Liners",
       short:
-        "Heavy-duty winter jacket designed for warmth, comfort, and durability."
+        <>
+          Heavy-duty winter jacket designed for
+          <br />
+          warmth, comfort, and durability.
+        </>
     }
   ]
 
@@ -145,13 +157,30 @@ function Products() {
             }}
           >
 
+            
+
             <img
               src={product.image}
+              loading="lazy"
               alt={product.name}
               style={{
                 width: '100%',
                 height: '220px',
-                objectFit: 'cover'
+
+                objectFit:
+                  product.name === 'HEPA Air Filter'
+                    ? 'contain'
+                    : 'cover',
+
+                transform:
+                  product.name === 'HEPA Air Filter'
+                    ? 'scale(1.1)'
+                    : 'scale(1)',
+
+                padding:
+                  product.name === 'HEPA Air Filter'
+                    ? '10px'
+                    : '0px'
               }}
             />
 

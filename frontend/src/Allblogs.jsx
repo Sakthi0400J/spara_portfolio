@@ -43,6 +43,32 @@ function Allblogs() {
 
   }, [])
 
+  useEffect(() => {
+
+    if (!selectedImage) return
+
+    const interval = setInterval(() => {
+
+      setSelectedImage((current) => {
+
+        const currentIndex =
+          images.indexOf(current)
+
+        const nextIndex =
+          (currentIndex + 1) % images.length
+
+        return images[nextIndex]
+
+      })
+
+    }, 3500)
+
+    return () => clearInterval(interval)
+
+  }, [selectedImage])
+
+  
+
   const nextImage = () => {
 
     const currentIndex =
@@ -142,6 +168,8 @@ function Allblogs() {
 
               <img
                 src={img}
+                loading="lazy"
+
                 alt={`blog-${index}`}
               />
 
@@ -165,6 +193,8 @@ function Allblogs() {
 
             <img
               src={selectedImage}
+              loading="lazy"
+
               alt="expanded-blog"
               className="modal-image"
             />

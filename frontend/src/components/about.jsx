@@ -87,7 +87,7 @@ function About() {
         
 
         <p className="about-paragraph">
-          Sunraise Technotex Private Limited is a one of the leading needle punched fabrics manufacturer company in india located  in Coimbatore, Tamil Nadu
+          Spara Technotex Private Limited is a one of the leading needle punched fabrics manufacturer company in india located  in Coimbatore, Tamil Nadu
         </p>
 
         <p className="about-paragraph">
@@ -217,8 +217,10 @@ function About() {
             </h2>
 
             <p style={featureText}>
-              Sustainable manufacturing processes with minimal
-              environmental impact.
+              Sustainable manufacturing processes with
+            </p>
+            <p style={featureText}>
+              minimal environmental impact.
             </p>
 
           </div>
@@ -387,6 +389,9 @@ function About() {
                 background: 'white',
                 padding: '20px',
                 borderRadius: '10px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
                 boxShadow:
                   hoveredIndex === i
                     ? '0 6px 20px rgba(0,0,0,0.15)'

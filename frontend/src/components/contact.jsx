@@ -94,13 +94,12 @@ function Contact() {
         fontFamily: '"Times New Roman", Times, serif',
         position: 'relative',
 
-        /* FIXED SPACING */
         marginTop: '  0px',
 
         padding: '120px 80px 70px',
 
         overflow: 'hidden',
-        scrollMarginTop: '-40px'
+        scrollMarginTop: '-70px'
       }}
     >
 
@@ -151,7 +150,8 @@ function Contact() {
             margin: '0 auto'
           }}
         >
-          We'd love to hear from you.
+          We'd love to hear from you
+          <br />
           Reach out for inquiries, quotes, or partnerships.
         </p>
 
@@ -202,12 +202,12 @@ function Contact() {
               </h3>
 
               <div style={text}>
-                <div>Sunraise Technotex Pvt Ltd</div>
-                <div>#1/84 P-5, Kallapalayam</div>
-                <div>to Peedampalli Road</div>
-                <div>Kallapalayam Village</div>
-                <div>Coimbatore – 641201</div>
-                <div>Tamilnadu, India</div>
+                <div>Spara Technotex Pvt Ltd</div>
+                <div>#1/84 P-5, Kallapalayam to Peedampalli Road</div>
+                <div>Kallapalayam Village </div>
+                <div>Sulur Taluk</div>
+                <div>Coimbatore- 641201</div>
+                <div>GST number 33ABGCS6251F1ZG</div>
               </div>
 
             </div>
@@ -237,12 +237,10 @@ function Contact() {
                 Phone
               </h3>
 
-              <p style={text}>
-                9786005252,
+              <p style={contacttext}>
+                 7702711109
               </p>
-              <p style={text}>
-                7702711109
-              </p>
+              
 
             </div>
 
@@ -270,7 +268,7 @@ function Contact() {
               </h3>
 
               <p style={text}>
-                info@sunraise.co.in
+                <a href="mailto:sparatechnotex@gmail.com" style={{ color: 'inherit' }}>sparatechnotex@gmail.com</a>
               </p>
 
             </div>
@@ -363,6 +361,11 @@ function Contact() {
 
       <style>
         {`
+          p a {
+            color: inherit;
+            text-decoration: none; 
+          }
+
 
           /* TABLET */
 
@@ -540,6 +543,17 @@ const text = {
   color: '#6c757d',
 
   lineHeight: '30px',
+  textAlign: 'left'
+
+}
+
+const contacttext = {
+
+  fontSize: '16px',
+
+  color: '#6c757d',
+
+  lineHeight: '18px',
   textAlign: 'left'
 
 }

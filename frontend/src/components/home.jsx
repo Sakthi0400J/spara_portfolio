@@ -35,7 +35,7 @@ function Home() {
 
     const interval = setInterval(() => {
       nextSlide()
-    }, 30000)
+    }, 5000)
 
     return () => clearInterval(interval)
 
@@ -170,7 +170,7 @@ function Home() {
             padding: '0 10px'
           }}
         >
-          SUNRAISE TECHNOTEX PRIVATE LIMITED
+          SPARA TECHNOTEX PRIVATE LIMITED
         </h1>
 
         <h2

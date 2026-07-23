@@ -11,7 +11,7 @@ function AllProducts() {
     const products = [
 
     {
-      image: "/public/products/sunraise image/all type of cushion.png",
+      image: "/public/products/sunraise image/Sunraise_all_type_of_cushion.png",
       name: "All Types of Cushion",
       short:
         "Eco-friendly multi-layer cushioning solution for safe packaging.",
@@ -20,7 +20,7 @@ function AllProducts() {
     },
 
     {
-      image: "/public/products/sunraise image/Comforter.png",
+      image: "/public/products/sunraise image/Sunraise_Comforter.png",
       name: "Comforter",
       short:
         "Soft, breathable all-season comfort bedding solution.",
@@ -29,7 +29,7 @@ function AllProducts() {
     },
 
     {
-      image: "/public/products/sunraise image/hepafilteronly.png",
+      image: "/public/products/sunraise image/Sunraise_hepafilteronly.png",
       name: "HEPA Air Filter",
       short:
         "High-efficiency air purification filtration media.",
@@ -53,8 +53,8 @@ function AllProducts() {
         "/products/sunraise image/non-woven_needle_punched/non woven fab.png"
       ],
       image: "/products/sunraise image/non-woven_needle_punched/Gemini_Generated_Image_2h6ato2h6ato2h6a.png",
-      name: "Non-Woven Needle Punched Fabrics",
-      short: "A thick, industrial-grade non-woven fabric mechanically needle-punched from 100% organic plant fibers—engineered for heavy-duty upholstery padding, geotextiles, and insulation while remaining 100% compostable.",
+      name: "Needle Punched Fabrics",
+      short: "A thick, industrial-grade non-woven needle punched fabric ",
       details:
         "Replace synthetic poly-felt sheets with a highly resilient, plant-based alternative. Our non-durable Non-Woven Needle Punched Fabric is crafted by mechanically interlocking thousands of raw hemp and jute fibers with barbed needles, creating a dense, binder-free matrix. It offers exceptional load-bearing support, shock absorption, and acoustic dampening, making it an excellent structural backing for eco-furniture, protective padding, or agricultural weed barriers. Free from chemical resins or petroleum plastics, this heavy-duty material breaks down cleanly in active soil conditions once retired."
     },
@@ -101,14 +101,14 @@ function AllProducts() {
       image: "/public/products/sunraise image/super-bright-sponge-wipes.jpg",
       name: "Super Bright Sponge Wipes",
       short:
-        "Highly absorbent cleaning wipes for industrial and domestic use.",
+        "Highly absorbent cleaning wipes for industrial use.",
       details:
         "Advanced sponge wipe material designed for superior absorption, cleaning efficiency, and durability. It effectively removes dust, liquid, and contaminants from surfaces without leaving residue. Suitable for household cleaning, industrial maintenance, automotive detailing, and commercial hygiene applications, this material ensures high performance with long-lasting usability."
     },
 
     {
       image: "/public/products/sunraise image/winter jacket (2).png",
-      name: "Winter Jacket",
+      name: "Winter Jacket Liners",
       short:
         "Insulated protective jacket for cold weather conditions.",
       details:
@@ -118,7 +118,7 @@ function AllProducts() {
     {
     image: "/products/sunraise image/poly waddling  fabric.png",
     name: "Poly Waddling Fabric",
-    short: "A lightweight, highly breathable plant-biopolymer wadding fabric that provides a smooth, low-profile drape for summer quilts and light outerwear without a single strand of plastic.",
+    short: "A lightweight, highly breathable plant-biopolymer fabric.",
     details:
       "Perfect for delicate sewing projects, our Light-Loft Poly Wadding Fabric mimics the soft density of low-ounce polyester batting using 100% renewable corn starch biopolymers. It resists bunching and migration, allowing for intricate quilting patterns down to 1/4 inch apart. Because it is completely plant-derived and bound mechanically without chemical glues, it prevents microplastic pollution during laundry cycles and breaks down beautifully in a backyard compost heap at the end of its life cycle."
   },
@@ -133,7 +133,7 @@ function AllProducts() {
     image: "/products/sunraise image/disposable_cleaning_towels/Gemini_Generated_Image_agek6oagek6oagek.png",
     name: "Disposable Cleaning Towels",
     short:
-      "Heavy-duty, ultra-absorbent disposable cleaning towels made from 100% organic bamboo fibers that handle tough household spills and compost completely in your backyard.",
+      "Heavy-duty, ultra-absorbent disposable 100% organic towels.",
     details:
       "Designed for a truly circular home, our Eco Disposable Cleaning Towels prove that quick convenience doesn't have to leave a permanent footprint. We utilize a highly breathable, lint-free matrix of unbleached organic cotton and bamboo cellulose to create a towel that is incredibly soft yet highly durable. Perfect for wiping down glass, polishing stainless steel, or cleaning up messy kitchen countertops, they prevent microplastic pollution entirely. When their job is done, their fully biodegradable design ensures they return cleanly to nature without leaving a trace."
   },
@@ -147,13 +147,7 @@ function AllProducts() {
       "Upgrade your manufacturing or crafting projects with a truly sustainable alternative to petroleum-based synthetic fabrics. Our non-durable Non-Woven Polyester Fabric is created using advanced spunbond technology that fuses 100% plant-derived PLA biopolymers into a lightweight, uniform sheet. It delivers exceptional tear resistance, smooth texture, and fluid barrier performance, making it ideal for eco-bags, protective packaging, filtration layers, or garment linings. Entirely free of plastic resins or chemical finishes, this circular material returns cleanly to nature at the end of its life cycle."
   },
 
-  {
-    image: "/products/sunraise image/polyester-green-eco-friendly-scrub-pad-for-utensils-cleaning-purpose-389.jpg",
-    name: "Polyster Green Scrub Pad",
-    short: "A heavy-duty, grease-cutting green scrub pad crafted from 100% plant-derived bio-polyester that tackles tough, baked-on food without shedding synthetic microplastics down your drain.",
-    details:
-      "This minimalist green scrub pad offers maximum grease extraction and scrubbing efficiency with a radically minimized environmental footprint. Designed as a direct drop-in replacement for standard synthetic low-density polyethylene (LDPE) scouring pads, it utilizes a wet-laid organic cellulose and bio-fiber grid that holds dish soaps beautifully. It maintains tough structural resistance against tearing across its multi-week operational lifespan. When it finally reaches the end of its usable lifecycle, the entire structure naturally degrades in any active compost setup, closing the loop entirely."
-  }
+  
 
 
   ]
@@ -178,9 +172,9 @@ function AllProducts() {
             fontSize: '18px',
             color: '#6c757d',
             lineHeight: '30px',
-            maxWidth: '700px',
+            maxWidth: '1000px',
             margin: '0px auto',
-            transform: 'translateY(-45px)'
+            transform: 'translateY(-25px)'
           }}
         >
           Comprehensive range of non-woven and textile solutions built for performance and sustainability.
@@ -205,7 +199,10 @@ function AllProducts() {
 
                 <img
                   src={product.image}
+                  loading="lazy"
+
                   alt={product.name}
+
                 />
 
                 <h3>{product.name}</h3>
@@ -245,6 +242,8 @@ function AllProducts() {
                     ? selectedProduct.images[currentImage]
                     : selectedProduct.image
                 }
+                loading="lazy"
+
                 alt={selectedProduct.name}
               />
 
@@ -382,22 +381,32 @@ function AllProducts() {
 
         .product-card h3 {
 
-          padding: 18px 18px 8px;
+          padding: 18px 18px 10px;
 
           color: #276842;
 
           font-size: 22px;
+
+          line-height: 1.35;
+
+          height: 95px;
+
+          margin: 0;
+
+          overflow: hidden;
         }
 
         .product-card p {
 
-          padding: 0 18px 20px;
+          padding: 0 18px 22px;
+
+          margin: 0;
 
           color: #555;
 
           font-size: 16px;
 
-          line-height: 1.5;
+          line-height: 1.6;
 
           display: -webkit-box;
 
@@ -406,6 +415,9 @@ function AllProducts() {
           -webkit-box-orient: vertical;
 
           overflow: hidden;
+
+          transform: translateY(-40px);
+
         }
 
         .product-details {
