@@ -167,7 +167,8 @@ function Home() {
             letterSpacing: '1px',
             maxWidth: '1100px',
             lineHeight: '1.2',
-            padding: '0 10px'
+            padding: '0 10px',
+            color: "#ffffff"
           }}
         >
           SPARA TECHNOTEX PRIVATE LIMITED
@@ -181,7 +182,8 @@ function Home() {
             transition: 'opacity 0.4s ease-in-out',
             minHeight: '50px',
             lineHeight: '1.3',
-            padding: '0 10px'
+            padding: '0 10px',
+            color: "#ffffff"
           }}
         >
           {texts[textIndex]}
