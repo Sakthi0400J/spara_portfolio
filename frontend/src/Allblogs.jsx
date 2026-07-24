@@ -117,8 +117,10 @@ function Allblogs() {
             color: '#276842',
 
             marginBottom: '50px',
-
             fontSize: 'clamp(34px, 6vw, 50px)',
+
+            fontFamily: '"Times New Roman", Times, serif',
+
 
             textAlign: 'center',
 
@@ -232,6 +234,18 @@ function Allblogs() {
         {/* STYLES */}
 
         <style>{`
+          html,
+          body,
+          #root {
+              font-family: "Times New Roman", Times, serif;
+          }
+
+          *,
+          *::before,
+          *::after {
+              font-family: inherit;
+              box-sizing: border-box;
+          }
 
           .blogs-grid {
 

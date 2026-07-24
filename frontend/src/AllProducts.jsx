@@ -288,6 +288,18 @@ function AllProducts() {
       <Footer />
 
       <style>{`
+        html,
+        body,
+        #root {
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        *,
+        *::before,
+        *::after {
+            font-family: inherit;
+            box-sizing: border-box;
+        }
 
         .all-products-wrapper {
 
@@ -307,6 +319,8 @@ function AllProducts() {
           text-align: center;
 
           font-size: clamp(34px, 6vw, 50px);
+
+          font-family: "Times New Roman", Times, serif !important;
 
           line-height: 1.2;
         }
@@ -332,27 +346,24 @@ function AllProducts() {
         }
 
         .product-card {
+            background: white;
+            border-radius: 18px;
+            overflow: hidden;
+            cursor: pointer;
 
-          background: white;
+            transition:
+              transform 0.3s ease,
+              box-shadow 0.3s ease,
+              border 0.3s ease;
 
-          border-radius: 18px;
+            border: 3px solid transparent;
 
-          overflow: hidden;
+            display: flex;
+            flex-direction: column;
 
-          cursor: pointer;
+            min-height: 410px;
 
-          transition:
-            transform 0.3s ease,
-            box-shadow 0.3s ease,
-            border 0.3s ease;
-
-          border: 3px solid transparent;
-
-          display: flex;
-
-          flex-direction: column;
-
-          min-height: 410px;
+            box-sizing: border-box;
         }
 
         .product-card:hover {
@@ -380,44 +391,48 @@ function AllProducts() {
         }
 
         .product-card h3 {
+            padding: 18px 18px 10px;
+            margin: 0;
 
-          padding: 18px 18px 10px;
+            color: #276842;
 
-          color: #276842;
+            font-size: 22px;
+            line-height: 1.35;
+            font-weight: 600;
 
-          font-size: 22px;
+            min-height: 95px;
 
-          line-height: 1.35;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-          height: 95px;
+            text-align: center;
 
-          margin: 0;
-
-          overflow: hidden;
+            overflow-wrap: break-word;
+            word-break: normal;
+            hyphens: auto;
         }
 
         .product-card p {
+            padding: 0 18px 22px;
+            margin: 0;
 
-          padding: 0 18px 22px;
+            color: #555;
 
-          margin: 0;
+            font-size: 16px;
+            line-height: 1.6;
 
-          color: #555;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
 
-          font-size: 16px;
+            overflow: hidden;
 
-          line-height: 1.6;
+            transform: none;
 
-          display: -webkit-box;
+            margin-top: 8px;
 
-          -webkit-line-clamp: 3;
-
-          -webkit-box-orient: vertical;
-
-          overflow: hidden;
-
-          transform: translateY(-40px);
-
+            word-break: break-word;
         }
 
         .product-details {
